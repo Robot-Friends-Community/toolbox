@@ -55,6 +55,13 @@ Install these on your machine. All open source, MIT licensed.
 
 | Tool | What It Does | Install |
 |------|-------------|---------|
+| **[Airport Authority](https://github.com/Robot-Friends-Community/airport-authority)** | Session continuity & project-lifecycle control for Claude Code — `/takeoff` saves your whole work state, `/landing` restores it; an optional Flight Recorder keeps the build log across sessions; a Flight Engineer handles git hygiene in plain English | `claude plugin marketplace add Robot-Friends-Community/airport-authority` + `claude plugin install airport-authority@airport-authority` |
+| **[Customs Authority](https://github.com/Robot-Friends-Community/customs-authority)** | The decision-layer toolkit for Claude Code — find the classify / route / score steps in your project, write question sets that work, prove them on an answer key, ship the gated hybrid on TypeSafe's Jev (~100 ms, ~free, with a confidence). Guided mode for non-engineers | `claude plugin marketplace add Robot-Friends-Community/customs-authority` + `claude plugin install customs-authority@customs-authority` |
+| **[DoPA](https://github.com/Robot-Friends-Community/dopa)** | Department of Port Authorities — see what's on every local port, claim a safe one, seal the ones that must not die, evict with guardrails. Stops sessions and agents from killing each other's dev servers | `npm install -g github:Robot-Friends-Community/dopa` |
+| **[hail](https://github.com/Robot-Friends-Community/hail)** | Voice notifications for Claude Code — 14 character voice packs so you can step away from your terminal and get called back when something needs you | `git clone` + `node bin/hail.js install` |
+| **[no-look-pass](https://github.com/Robot-Friends-Community/no-look-pass)** | The lightweight, one-skill context handoff for Claude Code — save your full work state before clearing context, restore it in one command. Start here if Airport Authority is more than you need | `git clone` + `bash install.sh` |
+
+------|-------------|---------|
 | **[hail](https://github.com/Robot-Friends-Community/hail)** | Voice notifications for Claude Code — 14 character voice packs so you can step away from your terminal and get called back when something needs you | `git clone` + `node bin/hail.js install` |
 | **[no-look-pass](https://github.com/Robot-Friends-Community/no-look-pass)** | Context handoff for Claude Code — save your full work state before clearing context, restore it in one command. Includes Instant Replay game film logging across sessions | `git clone` + `bash install.sh` |
 
